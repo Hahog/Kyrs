@@ -1,0 +1,5 @@
+Диаграмма Ганта - https://app.ganttpro.com/shared/token/f8d4de069896d430a9e939c5e85c414aea7df0fe2a014dc59223aeed38d3b8d5/1416804#/
+IDEF 0 и декомпазиция - https://drive.google.com/file/d/1e9sC83n0gc7q_zYV3pxPYgRFvOjlOhpD/view?usp=sharing
+Организационная диаграмма - https://drive.google.com/file/d/1bOTtvhLyVPokiUcz35mKsZehLimfI7yh/view?usp=sharing
+Блок-схема системы фильтрации - https://drive.google.com/file/d/1HBJ0oDri1tur2A-ul2rM4QL9_m5l96WC/view?usp=sharing
+Блок-схема системы регистрации и входа пользователя - https://drive.google.com/file/d/121-p2y6pibdcY-iwRezkTRz5mggfF7kr/view?usp=sharing

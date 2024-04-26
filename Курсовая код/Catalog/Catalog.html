@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="Catalog.css">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+  <title>Document</title>
+</head>
+<body>
+  <header class = "grid_heder">
+    <article class = "logo flex flex_cent">
+      <img src = "foto/Лого.png" alt = "logo">
+    </article>
+    <article class = "grid_heder_nav flex flex_cent">
+      <nav class = "base_nav flex_gap medium">
+        <article id="contacts">
+          <a id="inksContacts">Контакты</a>
+        </article>
+        <a href="../Lending/Lending.html">О нас</a>
+        <a href="../Privacy policy/privacyPolicy.html">Политика</a>
+        <a href="#">Информация</a>
+      </nav>
+      <section style = "padding-right: 50px;">
+        <button class = "heder_open_button extrabold popUpWindowLogin" >Войти</button>
+    </section>
+    </article>
+  </header>
+  <main>
+
+
+    <article class = "mainArticleOne flex flex_column">
+
+      <section>
+        <h1>Каталог:</h1>
+      </section>
+
+      <section class = "mainArticleOneSearch">
+        <input type="text" placeholder="Search">
+      </section>
+
+    </article>
+
+
+    <article class="mainArticleTwo gird_categories">
+
+      <form name="categories" >
+
+
+        <section class="flex flex_column">
+
+          <h3>Категории</h3>
+
+          <label>
+            <input type="checkbox" name="categoriesCheck" value="free">
+            Бесплатные
+          </label>
+    
+          <label>
+            <input type="checkbox" name="categoriesCheck" value="rtx">
+            Поддержка RTX
+          </label>
+        
+          
+          <label>
+            <input type="checkbox" name="categoriesCheck" value="voiceover">
+            Русская озвучка
+          </label>
+    
+          
+          <label>
+            <input type="checkbox" name="categoriesCheck" value="subtitles">
+            Русские субтитры
+          </label>
+    
+          
+          <label>
+            <input type="checkbox" name="categoriesCheck" value="smartphone">
+            На смартфоне
+          </label>
+    
+          
+          <label>
+            <input type="checkbox" name="categoriesCheck" value="menu">
+            Русское меню
+          </label>
+        </section>
+
+        <section class="flex flex_column">
+
+          <h3>Жанры</h3>
+
+          <label>
+            <input type="checkbox" name="categoriesCheck" value="action">
+            Экшен
+          </label>
+
+
+          <label>
+            <input type="checkbox" name="categoriesCheck" value="strategies">
+            Стратегии
+          </label>
+
+
+          <label>
+            <input type="checkbox" name="categoriesCheck" value="simulator">
+            Симулятор
+          </label>
+
+
+          <label>
+            <input type="checkbox" name="categoriesCheck" value="singl">
+            Одиночные
+          </label>
+
+
+          <label>
+            <input type="checkbox" name="categoriesCheck" value="races">
+            Гонки
+          </label>
+
+
+          <label>
+            <input type="checkbox" name="categoriesCheck" value="mmo">
+            ММО
+          </label>
+
+
+          <label>
+            <input type="checkbox" name="categoriesCheck" value="indie">
+            Инди
+          </label>
+
+
+          <label>
+            <input type="checkbox" name="categoriesCheck" value="sport">
+            Спорт
+          </label>
+
+
+          <label>
+            <input type="checkbox" name="categoriesCheck" value="shooters">
+            Шутеры
+          </label>
+
+
+          <label>
+            <input type="checkbox" name="categoriesCheck" value="arcades">
+            Аркады
+          </label>
+        </section>
+  
+        <section class="flex flex_column">
+
+          <h3>Магазины</h3>
+
+          <label>
+            <input type="checkbox" name="categoriesCheck" value="steam">
+            Steam
+          </label>
+    
+          
+          <label>
+            <input type="checkbox" name="categoriesCheck" value="gog">
+            GOG
+          </label>
+    
+          
+          <label>
+            <input type="checkbox" name="categoriesCheck" value="origin"> 
+            Origin
+          </label>
+
+
+          <label>
+            <input type="checkbox" name="categoriesCheck" value="svoi"> 
+            Свой лаунчер
+          </label>
+        </section>
+  
+      </form>
+
+      <section id="main">
+
+          
+      </section>
+
+    </article>
+
+
+  </main>
+
+  <footer>
+    <article class="footer_nav flex flex_cent flex_between">
+      <section>
+      <img src="foto/Лого.png" alt="logo">
+    </section>
+      <nav class="flex  flex_gap medium">
+        <a href="../Privacy policy/privacyPolicy.html">Положение о конфиденциальности</a>
+        <a href="#">Настройки конфендициальности</a>
+        <a href="#">Юридическая</a>
+        <a href="#">Безопасность продукта</a>
+      </nav>
+    </article>
+    <article class="footer_cop flex medium" >
+        <p>Copyright © 2022 GAME Corporation</p>
+    </article>
+  </footer>
+  
+  <script defer src = "../SharedFilesJS/Visits.js"></script>
+  <script src= "Filter.js"></script>
+  <script src = "../SharedFilesJS/LoginWindow.js"></script>
+  <script deref src = "../SharedFilesJS/accordion.js"></script>
+</body>
+</html>

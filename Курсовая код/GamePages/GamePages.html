@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="GamePages.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    <header class = "grid_heder">
+        <article class = "logo flex flex_cent">
+          <img src = "foto/Лого.png" alt = "logo">
+        </article>
+        <article class = "grid_heder_nav flex flex_cent">
+          <nav class = "base_nav flex_gap medium">
+            <article id="contacts">
+              <a id="inksContacts">Контакты</a>
+            </article>
+            <a href="../Lending/Lending.html">О нас</a>
+            <a href="../Privacy policy/privacyPolicy.html">Политика</a>
+            <a href="#">Информация</a>
+          </nav>
+          <section style = "padding-right: 50px;">
+          <button class = "heder_open_button extrabold popUpWindowLogin" >Войти</button>
+        </section>
+        </article>
+      </header>
+      <main>
+        <article>
+            <h1 class="main_section_one_h1" id="h1"></h1>
+            <section class="main_section_one grid_2colum flex flex_cent" >
+                <article class="main_section_one_logoImg">
+                    <img id="logoImg" class="main_section_one_img">
+                    
+                </article>
+                <article class="main_section_one_text ">
+                    <p class="main_section_one_text_p" id="logoText"></p>
+                </article>
+            </section>
+            <section class="main_section_one_button">
+                <button class="game_button">Играть</button>
+                <a class="Triler" id="Triler"><img src="foto/Triler.png"></a>
+            </section>
+        </article>
+        <article class="main_rection_two" id="img">
+            
+            <img class="img1" id="img1" data-id="img">
+            <img class="img2" id="img2" data-id="img">
+            <img class="img1" id="img3" data-id="img">
+            <img class="img2" id="img4" data-id="img">
+            <img class="img1" id="img5" data-id="img">
+            <img class="img2" id="img6" data-id="img">
+            <img class="img1" id="img7" data-id="img">
+        </article>
+        <article class="main_section_three">
+            <h2 class="main_section_three_h2">Системные требования</h2>
+            <section class="main_section_three_treb grid grid_2colum">
+                <article class="main_section_three_treb_min flex">
+                   <h3>Минимальные</h3>
+                    <p class="main_section_three_treb_min_p" id="trebPMin"></p>
+                </article>
+                <article class="main_section_three_treb_max flex">
+                    <h3>Рекомендуемые</h3>
+                    <p class="main_section_three_treb_max_p" id="trebPMax"></p>
+                </article>
+            </section>
+        </article>
+      </main>
+      <footer>
+        <article class="footer_nav flex flex_cent flex_between">
+            <section>
+            <img src="foto/Лого.png" alt="logo">
+          </section>
+            <nav class="flex flex_gap medium">
+              <a href="../Privacy policy/privacyPolicy.html">Положение о конфиденциальности</a>
+              <a href="#">Настройки конфендициальности</a>
+              <a href="#">Юридическая</a>
+              <a href="#">Безопасность продукта</a>
+            </nav>
+          </article>
+          <article class="footer_cop flex medium" >
+              <p>Copyright © 2022 GAME Corporation</p>
+          </article>
+      </footer>
+    <script src="GamePages.js"></script>
+    <script deref src = "../SharedFilesJS/accordion.js"></script>
+</body>
+</html>

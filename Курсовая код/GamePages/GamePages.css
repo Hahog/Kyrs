@@ -1,0 +1,428 @@
+body {
+    margin: 0;
+    padding: 0;
+    min-width: 100%; 
+    cursor: default;
+    background-color: #141414;
+    font-family: 'Montserrat', sans-serif;
+}
+
+html {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color:inherit;
+    margin: 0;
+    
+}
+
+h1 {
+    margin: 0;
+    font-size: 50px;
+    color: white;
+}
+
+h2 {
+    margin: 0;
+}
+
+p {
+   margin: 0;
+}
+
+nav {
+    margin: 0;
+}
+
+header {
+    background-color: #0C0B0B;
+    order: 20%;
+    padding: 2px 50px;
+}
+
+footer {
+    background-color: #272728;
+    padding: 25px 100px;
+}
+
+main {
+    padding: 0px 80px 0px 80px;
+}
+
+
+
+
+.flex {
+    display: flex;
+}
+
+.flex_cent {
+    align-items: center;
+    justify-content: center;
+}
+
+.flex_wrap {
+    flex-wrap: wrap;
+}
+
+.flex_column {
+    flex-direction: column;
+}
+
+.flex_evenly {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.flex_between {
+    display: flex;
+    justify-content: space-between;
+}
+
+.flex_around {
+    display: flex;
+    justify-content: space-around;
+}
+
+.flex_gap {
+    display: flex;
+    gap: 60px;
+}
+
+
+
+.grid_2colum {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.grid_heder {
+    display: grid;
+    grid-template-columns: min-content 1fr;
+}
+
+.grid_heder_nav {
+    display: grid;
+    grid-template-columns: 1fr min-content;
+}
+
+.grid_game {
+    display: grid;
+    grid-template-columns: 600px 1fr;
+}
+
+
+.font_italic {
+    font-style: italic;
+}
+
+.medium {
+    font-weight: 500
+}
+.bold {
+    font-weight: bold;
+}
+
+.semiBold {
+    font-weight:600;
+}
+
+.extrabold {
+    font-weight: 900;
+}
+
+
+
+.base_nav {
+    color: #084259;
+    padding: 10px 100px;
+    justify-content: end;
+}
+
+.base_nav > a:hover {
+    color: #2D0FF2;
+    text-shadow: #2D0FF2 0px 1px 1px;
+}
+
+.logo > img {
+    width: 50px;
+    height: 50px;
+
+}
+
+.heder_open_button {
+     width: 80px;
+     height: 30px;
+     border-radius: 30px;
+     border: 4px solid #084259;
+     background-color: inherit;
+     color: #084259;
+     text-align: center;
+}
+
+.heder_open_button:active {
+    border: 2px solid #2D0FF2;
+    color: #2D0FF2;
+}
+
+
+
+.footer_cop {
+    align-items: end;
+    justify-content: end;
+    color: #4BA4F2;
+}
+
+.footer_nav > nav {
+    color: white;
+}
+
+.footer_nav > nav > a:hover {
+    color: #2D0FF2;
+}
+
+
+
+.main_section_one_h1 {
+    font-size: 78px;
+    color:white;
+    margin: 60px 0px 60px 0px;
+}
+
+.main_section_one_img {
+    width: 400px;
+    height: 600px;
+}
+
+.main_section_one_text {
+    width: 1000px;
+    height: min-content;
+    padding: 100px;
+    color: #D97197;
+    font-size: 24px;
+    border: 5px solid #084259;
+    border-radius: 90px;
+}
+
+.main_section_one_button {
+    padding: 20px 0 100px 0;
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+.game_button {
+    width: 200px;
+    height: 90px;
+    border-radius: 20px;
+    border:none;
+    background-color: #4BA4F2;
+    color: white;
+    font-size: 30px;
+}
+
+.Triler {
+    padding: 20px;
+    border: 3px solid #4C5159;
+    border-radius: 100px;
+}
+
+
+
+.main_section_three_h2 {
+    color:white;
+    font-size: 40px;
+    text-align: center;
+    margin: 40px 0 100px 0;
+}
+
+.main_section_three_treb_min {
+    align-items: center;
+    justify-content: start;
+    flex-direction: column;
+    gap: 100px;
+    padding: 0px 0 100px 0;
+    border-right: 3px solid #084259;
+    margin-bottom: 200px;
+    color: white;
+    font-size: 20px;
+}
+
+.main_section_three_treb_min >h3 {
+    font-size: 32px;
+}
+
+.main_section_three_treb_max {
+    align-items: center;
+    justify-content: start;
+    flex-direction: column;
+    gap: 100px;
+    padding: 0px 0 100px 0;
+    border-left: 3px solid #084259;
+    margin-bottom: 200px;
+    color: white;
+    font-size: 20px;
+}
+
+.main_section_three_treb_max > h3 {
+    font-size: 32px;
+}
+
+
+
+.img1 {
+    width: 900px;
+    height: 500px;
+    animation-duration: 4s;
+    animation-timing-function: cubic-bezier(0,.3,.27,.99);
+    animation-fill-mode: forwards;
+    transform: translateX(-1400px);
+    position: absolute;
+    border-radius: 100px;
+    border: 2px solid #4C5159;
+}
+
+.img2 {
+    width: 900px;
+    height: 500px;
+    animation-duration: 4s;
+    animation-timing-function: cubic-bezier(0,.3,.27,.99);
+    transform: translateX(2000px);
+    animation-fill-mode: forwards;
+    position: absolute;
+    border-radius: 100px;
+    border: 2px solid #4C5159;
+}   
+
+.main_rection_two {
+    border-top: 3px solid #4C5159;
+    border-bottom: 3px solid #4C5159;
+    padding: 300px;
+    height: 2000px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+
+
+@keyframes img1{
+    0% {
+        transform: translateX(-1400px);
+    }
+    100% {
+        transform: translateX(-100px);
+    }
+}
+
+@keyframes img2{
+    0% {
+        transform: translate(1400px, 250px);
+    }
+    100% {
+        transform: translate(300px, 250px);
+    }
+}
+
+@keyframes img3{
+    0% {
+        transform: translate(-1400px, 500px);
+    }
+    100% {
+        transform: translate(-100px, 500px);
+    }
+}
+
+@keyframes img4{
+    0% {
+        transform: translate(1400px, 750px);
+    }
+    100% {
+        transform: translate(300px, 750px);
+    }
+}
+
+@keyframes img5{
+    0% {
+        transform: translate(-1400px, 1000px);
+    }
+    100% {
+        transform: translate(-100px, 1000px);
+    }
+}
+
+@keyframes img6{
+    0% {
+        transform: translate(1400px, 1250px);
+    }
+    100% {
+        transform: translate(300px, 1250px);
+    }
+}
+
+@keyframes img7{
+    0% {
+        transform: translate(-1400px, 1500px);
+    }
+    100% {
+        transform: translate(-100px, 1500px);
+    }
+}
+
+
+#imgDialog {
+    position: fixed;
+    width: 1400px;
+    height: 800px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+#contacts {
+    position: relative;
+    
+    display: flex;
+    justify-content: center;
+}
+
+.contactsSection {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    position: absolute;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    top: 25px;
+    background-color: rgba(8, 66, 89, 0.7);
+    padding: 10px;
+    text-align: center;
+}
+
+.contactsSection > p {
+    color: white;
+}
+
+@keyframes accordion {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes removeAccordion {
+    0% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}

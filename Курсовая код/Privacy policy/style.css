@@ -1,0 +1,15 @@
+main {
+    background-color: #141414;
+    color: white;
+    margin: 0px;
+}
+
+ul {
+    margin: 0;
+    padding: 15px 0px 15px 15px;
+}
+
+li {
+    padding: 20px 0px 20px 10px;
+    margin-left: 30px;
+}
